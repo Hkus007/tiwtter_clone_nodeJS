@@ -1,8 +1,8 @@
 {
   "name": "twitter-node-backend",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "twitter Backend API clone ",
+  "author": "Hemant Kumar Singh",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
