@@ -2,7 +2,7 @@ A Twitter Clone
 
 Backend API for Moo using Nest framework (NodeJS + TypeScript + PostgreSQL)
 
-![NodeJS Workflow](https://github.com/Hkus007/tiwtter_clone_nodeJS/blob/main/.github/workflows/nodejs.yml/badge.svg)
+![NodeJS Workflow](https://github.com/Hkus007/tiwtter_clone_nodeJS/actions/workflows/nodejs.yml/badge.svg)
 
 ## Description
 
