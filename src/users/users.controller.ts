@@ -20,28 +20,28 @@ export class UsersController {
     }
 
 
-  @Patch('/:userid')
-  updateUserDetails(@Param() param): string {
-    return `details of user (id = ${param.userid}) updated`;
-  }
+    @Patch('/:userid')
+    updateUserDetails(@Param() param): string {
+        return `details of user (id = ${param.userid}) updated`;
+    }
 
-  @Put('/:userid/follow')
-  followUser(): string {
-    return 'you followed user';
-  }
+    @Put('/:userid/follow')
+    followUser(): string {
+        return 'you followed user';
+    }
 
-  @Delete('/:userid/follow')
-  unfollowUser(): string {
-    return 'you unfollowed user';
-  }
+    @Delete('/:userid/follow')
+    unfollowUser(): string {
+        return 'you unfollowed user';
+    }
 
-  @Get('/:userid/followers')
-  getFollowersOfUser(): string {
-    return 'get followers of user';
-  }
+    @Get('/:userid/followers')
+    getFollowersOfUser(): string {
+        return 'get followers of user';
+    }
 
-  @Put('/:userid/followees')
-  getFolloweesOfUser(): string {
-    return `get followees of given user`;
-  }
+    @Put('/:userid/followees')
+    getFolloweesOfUser(): string {
+        return `get followees of given user`;
+    }
 }
